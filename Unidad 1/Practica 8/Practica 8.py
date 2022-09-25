@@ -35,7 +35,7 @@ def inicio():
                 Menu()
             else:
                 print("+--------------------Datos del usuario-----------------+")
-                print("Su usuario es: "+ usuario.user + "\nSu rol es: "+ usuario.rol +"\nSu nombre es:"+ usuario.name)
+                print("Su usuario es: "+ usuario.user + "\nSu rol es: "+ usuario.rol +"\nSu nombre es:"+ usuario.name+ "\nSu CURP es:"+ usuario.curp)
                 print("+------------------------------------------------------+")
                 Menu()
         else:
