@@ -1,0 +1,89 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 01:45:31] "POST /estudiante HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 01:46:32] "POST /estudiante HTTP/1.1" 200 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 01:46:37] "GET /estudiante HTTP/1.1" 200 -
+DEBUG:app:None
+ERROR:app:Exception on /estudiante [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\jonar\Desktop\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jonar\Desktop\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jonar\Desktop\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jonar\Desktop\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\jonar\Desktop\Practica3\app.py", line 58, in getEstudiantes
+    db.sesion.delete(estudiante)
+  File "C:\Users\jonar\Desktop\Practica3\.venv\lib\site-packages\flask_sqlalchemy\extension.py", line 988, in __getattr__
+    raise AttributeError(name)
+AttributeError: sesion
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 01:46:58] "[35m[1mDELETE /estudiante HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:16:24] "GET /estudiante HTTP/1.1" 200 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:16:28] "[33mGET /estudiante/1 HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:16:31] "GET /estudiante HTTP/1.1" 200 -
+DEBUG:app:None
+ERROR:app:Exception on /estudiante [POST]
+Traceback (most recent call last):
+  File "C:\Users\jonar\Desktop\Practica3\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jonar\Desktop\Practica3\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jonar\Desktop\Practica3\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jonar\Desktop\Practica3\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\jonar\Desktop\Practica3\app.py", line 50, in getEstudiantes
+    print(estudiante)
+TypeError: __str__ returned non-string (type tuple)
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:16:40] "[35m[1mPOST /estudiante HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:19:56] "GET /estudiante HTTP/1.1" 200 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:20:18] "POST /estudiante HTTP/1.1" 200 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:20:20] "GET /estudiante HTTP/1.1" 200 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:20:23] "GET /estudiante/1 HTTP/1.1" 200 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:20:26] "[33mGET /estudiante/2 HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:20:29] "GET /estudiante/3 HTTP/1.1" 200 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:20:36] "DELETE /estudiante/3 HTTP/1.1" 200 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:20:38] "[33mGET /estudiante/3 HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:20:42] "[33mGET /estudiante/3 HTTP/1.1[0m" 404 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:20:47] "GET /estudiante HTTP/1.1" 200 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:20:56] "POST /estudiante HTTP/1.1" 200 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:20:59] "GET /estudiante HTTP/1.1" 200 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:21:13] "PATCH /estudiante/4 HTTP/1.1" 200 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:21:15] "GET /estudiante/4 HTTP/1.1" 200 -
+DEBUG:app:None
+INFO:werkzeug:127.0.0.1 - - [29/Oct/2022 17:21:16] "GET /estudiante HTTP/1.1" 200 -

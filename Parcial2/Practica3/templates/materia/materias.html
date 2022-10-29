@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesores</title>
+    <link rel="stylesheet" href="../../static/styles/tablasM.css">
+</head>
+<body>
+    <div class="body">
+        <h1>Listado de materias</h1>
+        <div>
+            <a href="{{ url_for('index') }}">Inicio</a>
+            <a href="{{ url_for('agregarMateria') }}">Agregar</a>
+        </br>
+        </div>
+
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Creditos</th>
+                        <th>Horas</th>
+                        <th>Semestre</th>
+                        <th>Detalle</th>
+                        <th>Editar</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for materia in materias %}
+                    <tr>
+                        <td>{{materia.id}}</td>
+                        <td>{{materia.nombre}}</td>
+                        <td>{{materia.creditos}}</td>
+                        <td>{{materia.horas}}</td>
+                        <td>{{materia.semestre}}</td>
+                        <td><a href="/materias/{{materia.id}}">Detalle</a></td>
+                        <td><a href="/materias/editar/{{materia.id}}">Editar</a></td>
+                        <td><a href="/materias/eliminar/{{materia.id}}">Eliminar</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+</body>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../static/styles/tablasP.css">
+    <title>Profesores</title>
+</head>
+<body>
+    <div class="body">
+    <h1>Listado de profesores</h1>
+    <div>
+        <a href="{{ url_for('index') }}">Inicio</a>
+        <a href="{{ url_for('agregarProfesor') }}">Agregar</a>
+    </br>
+    </div>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Email</th>
+                    <th>Edad</th>
+                    <th>Detalle</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for profesor in profesores %}
+                <tr>
+                    <td>{{profesor.id}}</td>
+                    <td>{{profesor.nombre}}</td>
+                    <td>{{profesor.apellido}}</td>
+                    <td>{{profesor.email}}</td>
+                    <td>{{profesor.edad}}</td>
+                    <td><a href="/profesores/{{profesor.id}}">Detalle</a></td>
+                    <td><a href="/profesores/editar/{{profesor.id}}">Editar</a></td>
+                    <td><a href="/profesores/eliminar/{{profesor.id}}">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    </div>
+    
+</body>
