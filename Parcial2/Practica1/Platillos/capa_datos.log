@@ -1,0 +1,276 @@
+11:18,49 PM: DEBUG [logger_base.py] : 10 Mensaje debug
+11:19,04 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+11:19,04 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000002A2C25191B0>
+11:19,04 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000002A2C24E0150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+11:19,04 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+11:19,37 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+11:19,37 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000001B2349E60E0>
+11:19,37 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001B2349F0150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+11:19,37 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+11:20,41 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+11:20,41 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x00000265290E60E0>
+11:20,41 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000265290F0150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+11:20,41 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+11:22,30 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+11:22,30 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000015DA83360E0>
+11:22,30 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000015DA8340150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+11:22,30 PM: DEBUG [PlatilloDao.py] : 37 Se actualizo una platillo
+11:22,30 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+11:22,30 PM: DEBUG [PlatilloDao.py] : 59 Platillos actualizados: 1
+11:22,30 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+11:22,30 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000015DA8340480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+11:22,30 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+11:24,32 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+11:24,32 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000002321D516050>
+11:24,32 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000002321D520150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+11:24,32 PM: DEBUG [PlatilloDao.py] : 45 Se elimino una platillo
+11:24,32 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+11:24,32 PM: DEBUG [PlatilloDao.py] : 64 Platillos eliminadas 1
+11:24,32 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+11:24,32 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000002321D520480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+11:24,32 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+11:25,48 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+11:25,49 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000022A08808490>
+11:25,49 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000022A087D0150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+11:25,49 PM: DEBUG [PlatilloDao.py] : 29 Se inserto una platillo
+11:25,49 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+11:25,49 PM: DEBUG [PlatilloDao.py] : 53 Platillos insertadas 1
+11:25,49 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+11:25,49 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000022A087D0480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+11:25,49 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+11:27,22 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+11:27,22 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000021C153460E0>
+11:27,22 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000021C15350150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+11:27,22 PM: DEBUG [PlatilloDao.py] : 29 Se inserto una platillo
+11:27,22 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+11:27,22 PM: DEBUG [PlatilloDao.py] : 53 Platillos insertadas 1
+11:27,22 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+11:27,22 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000021C15350480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+11:27,22 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+11:59,04 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+11:59,04 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000001B4939B8100>
+11:59,04 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001B493990040; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+11:59,04 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:04,15 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:04,15 AM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x00000229A5188250>
+12:04,15 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000229A5160040; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:04,15 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:07,39 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:07,39 AM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000019313616110>
+12:07,39 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000019313620150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:07,39 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:09,18 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:09,19 AM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000001A45C526110>
+12:09,19 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001A45C530150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:09,19 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:09,43 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:09,43 AM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000019BBB468250>
+12:09,43 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000019BBB440040; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:09,43 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:12,11 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:12,11 AM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000020CF2C06110>
+12:12,11 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000020CF2C10150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:12,11 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:12,42 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:12,42 AM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000002B59EA76110>
+12:12,42 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000002B59EA80150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:12,42 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:12,51 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:12,51 AM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000019C294A8250>
+12:12,51 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000019C29480040; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:12,51 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:13,50 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:13,50 AM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000018425628250>
+12:13,50 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000018425600040; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:13,50 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:15,23 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:15,23 AM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000002C2A2E36110>
+12:15,23 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000002C2A2E40150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:15,23 AM: DEBUG [ClienteDao.py] : 29 Se registro un cliente
+12:15,23 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:15,23 AM: DEBUG [ClienteDao.py] : 53 Clientes registrados 1
+12:15,23 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:15,23 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000002C2A2E40480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:15,23 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:15,53 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:15,53 AM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000001720DF96140>
+12:15,53 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001720DFA0150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:15,53 AM: DEBUG [ClienteDao.py] : 37 Se actualizo un cliente
+12:15,53 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:15,53 AM: DEBUG [ClienteDao.py] : 58 Clientes actualizados: 1
+12:15,53 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:15,53 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001720DFA0480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:15,53 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:16,14 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:16,14 AM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000021827BB2020>
+12:16,14 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000021827BAC150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:16,14 AM: DEBUG [ClienteDao.py] : 37 Se actualizo un cliente
+12:16,14 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:16,14 AM: DEBUG [ClienteDao.py] : 58 Clientes actualizados: None
+12:16,14 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:16,14 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000021827BAC480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:16,14 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:16,48 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:16,48 AM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x00000200E4C31FC0>
+12:16,48 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000200E4C2C150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:16,48 AM: DEBUG [ClienteDao.py] : 45 Se elimino un cliente
+12:16,48 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:16,48 AM: DEBUG [ClienteDao.py] : 63 Clientes eliminados 1
+12:16,48 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:16,48 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000200E4C2C480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:16,48 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:17,14 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:17,14 AM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x00000229C7D46080>
+12:17,14 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000229C7D50150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:17,14 AM: DEBUG [ClienteDao.py] : 29 Se registro un cliente
+12:17,14 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+12:17,14 AM: DEBUG [ClienteDao.py] : 53 Clientes registrados 1
+12:17,14 AM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+12:17,14 AM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000229C7D50480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+12:17,14 AM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+05:09,46 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+05:09,46 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000001EC75BA1DB0>
+05:09,46 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001EC75B9C150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+05:09,46 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+05:47,50 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+05:47,50 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000001EADDDD1DB0>
+05:47,50 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001EADDDCC150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+05:47,50 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+05:48,55 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+05:48,55 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000023A5B0A1DB0>
+05:48,55 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000023A5B09C150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+05:48,55 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+05:49,51 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+05:49,51 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000024951C81FF0>
+05:49,51 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000024951C7C150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+05:49,51 PM: DEBUG [ClienteDao.py] : 45 Se elimino un cliente
+05:49,51 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+05:49,51 PM: DEBUG [ClienteDao.py] : 63 Clientes eliminados 1
+05:49,51 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+05:49,51 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000024951C7C480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+05:49,51 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+05:51,32 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+05:51,32 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000002973A0560B0>
+05:51,32 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000002973A060150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+05:51,32 PM: DEBUG [ClienteDao.py] : 37 Se actualizo un cliente
+05:51,32 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+05:51,32 PM: DEBUG [ClienteDao.py] : 58 Clientes actualizados: None
+05:51,32 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+05:51,32 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000002973A060480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+05:51,32 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+05:52,37 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+05:52,37 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000001CD2D8C60B0>
+05:52,37 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001CD2D8D0150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+05:52,37 PM: DEBUG [ClienteDao.py] : 37 Se actualizo un cliente
+05:52,37 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+05:52,37 PM: DEBUG [ClienteDao.py] : 58 Clientes actualizados: None
+05:52,37 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+05:52,38 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001CD2D8D0480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+05:52,38 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+05:52,49 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+05:52,49 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x00000261468E6080>
+05:52,49 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000261468F0150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+05:52,49 PM: DEBUG [ClienteDao.py] : 29 Se registro un cliente
+05:52,49 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+05:52,49 PM: DEBUG [ClienteDao.py] : 53 Clientes registrados 1
+05:52,49 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+05:52,49 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000261468F0480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+05:52,49 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+06:32,02 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+06:32,02 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x00000224686B5E40>
+06:32,02 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000224686B0150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+06:32,02 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+06:34,49 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+06:34,49 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x00000228C3AF60B0>
+06:34,49 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000228C3B00150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+06:34,49 PM: DEBUG [PlatilloDao.py] : 29 Se inserto una platillo
+06:34,49 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+06:34,49 PM: DEBUG [PlatilloDao.py] : 53 Platillos insertadas 1
+06:34,49 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+06:34,50 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000228C3B00480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+06:34,50 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+06:37,57 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+06:37,57 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x00000251169960E0>
+06:37,57 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000251169A0150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+06:37,57 PM: DEBUG [PlatilloDao.py] : 37 Se actualizo una platillo
+06:37,57 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+06:37,57 PM: DEBUG [PlatilloDao.py] : 59 Platillos actualizados: 1
+06:37,57 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+06:37,57 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000251169A0480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+06:37,57 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+06:38,07 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+06:38,07 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x00000199DC2260E0>
+06:38,07 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000199DC230150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+06:38,07 PM: DEBUG [PlatilloDao.py] : 37 Se actualizo una platillo
+06:38,07 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+06:38,07 PM: DEBUG [PlatilloDao.py] : 59 Platillos actualizados: 1
+06:38,07 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+06:38,07 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000199DC230480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+06:38,07 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+06:38,15 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+06:38,16 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x00000154D6F360E0>
+06:38,16 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000154D6F40150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+06:38,16 PM: DEBUG [PlatilloDao.py] : 37 Se actualizo una platillo
+06:38,16 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+06:38,16 PM: DEBUG [PlatilloDao.py] : 59 Platillos actualizados: 1
+06:38,16 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+06:38,16 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000154D6F40480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+06:38,16 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+06:38,32 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+06:38,33 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x00000181AAE36110>
+06:38,33 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000181AAE40150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+06:38,33 PM: DEBUG [PlatilloDao.py] : 37 Se actualizo una platillo
+06:38,33 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+06:38,33 PM: DEBUG [PlatilloDao.py] : 59 Platillos actualizados: 1
+06:38,33 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+06:38,33 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x00000181AAE40480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+06:38,33 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+06:41,57 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+06:41,57 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000023F58DB6050>
+06:41,57 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000023F58DC0150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+06:41,57 PM: DEBUG [PlatilloDao.py] : 45 Se elimino una platillo
+06:41,57 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+06:41,57 PM: DEBUG [PlatilloDao.py] : 64 Platillos eliminados 1
+06:41,57 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+06:41,57 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000023F58DC0480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+06:41,57 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+09:45,01 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+09:45,01 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000001C5551F5E40>
+09:45,01 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001C5551F0150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+09:45,01 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+09:45,32 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+09:45,32 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000001F9DBA86080>
+09:45,32 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001F9DBA90150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+09:45,32 PM: DEBUG [PlatilloDao.py] : 45 Se elimino una platillo
+09:45,32 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+09:45,32 PM: DEBUG [PlatilloDao.py] : 64 Platillos eliminados 1
+09:45,32 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+09:45,32 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001F9DBA90480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+09:45,32 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+09:45,55 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+09:45,55 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x000001FE9C126110>
+09:45,55 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001FE9C130150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+09:45,55 PM: DEBUG [PlatilloDao.py] : 37 Se actualizo una platillo
+09:45,55 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+09:45,55 PM: DEBUG [PlatilloDao.py] : 59 Platillos actualizados: 1
+09:45,55 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+09:45,55 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x000001FE9C130480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+09:45,55 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+09:46,01 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+09:46,01 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000023202DA6110>
+09:46,01 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000023202DB0150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+09:46,01 PM: DEBUG [PlatilloDao.py] : 37 Se actualizo una platillo
+09:46,01 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+09:46,01 PM: DEBUG [PlatilloDao.py] : 59 Platillos actualizados: 1
+09:46,01 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+09:46,01 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000023202DB0480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+09:46,01 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+09:46,20 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+09:46,20 PM: DEBUG [Conexion.py] : 30 Creacion del pool<psycopg2.pool.SimpleConnectionPool object at 0x0000028B167260B0>
+09:46,20 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000028B16730150; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+09:46,20 PM: DEBUG [PlatilloDao.py] : 29 Se inserto una platillo
+09:46,20 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
+09:46,20 PM: DEBUG [PlatilloDao.py] : 53 Platillos insertadas 1
+09:46,20 PM: DEBUG [CursorDelPool.py] : 11 Inicio Metodo With
+09:46,20 PM: DEBUG [Conexion.py] : 41 Conexion obtenida: <connection object at 0x0000028B16730480; dsn: 'user=postgres password=xxx dbname=practica1crud host=127.0.0.1 port=5432', closed: 0>
+09:46,20 PM: DEBUG [CursorDelPool.py] : 17 Se ejecuta exit
