@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chartset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="{% static 'css/detalle.css' %}">
+        <title>Detalle</title>
+    </head>
+    <body>
+        <h3>
+            {{materia.id}}
+            <br>
+            Nombre: 
+            {{materia.nombre}}
+            <br>
+            Semestre: 
+            {{materia.semestre}}
+            <br>
+            Creditos teoricos: 
+            {{materia.creditos_teoricos}}
+            <br>
+            Creditos practicos: 
+            {{materia.creditos_practicos}}
+        </h3>
+        <br>
+        <a href="{%url 'materia'%}">Volver</a>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chartset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="{% static 'css/tabla.css' %}">
+        <title>Bienvenida</title>
+    </head>
+    <body>
+        <div>
+            <a href="agregarProfesor">Agregar nuevo profesor</a>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Detalle</th>
+                        <th>Editar</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {%for profesor in profesores%}
+                    <tr>
+                        <td>{{profesor.id}}</td>
+                        <td>{{profesor.nombre}} {{profesor.apellidos}}</td>
+                        <td><a href="detalleProfesor/{{profesor.id}}">Detalles</a></td>
+                        <td><a href="editarProfesor/{{profesor.id}}">Editar profesor</a></td>
+                        <td><a href="eliminarProfesor/{{profesor.id}}">Eliminar profesor</a></td>
+                    </tr>
+                    {%endfor%}
+                </tbody>
+            </table>
+            <a href="{%url 'index'%}">Volver al inicio</a>
+        </div>
+    </body>
+</html>

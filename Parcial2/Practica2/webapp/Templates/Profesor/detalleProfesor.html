@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chartset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="{% static 'css/detalle.css' %}">
+        <title>Detalle</title>
+    </head>
+    <body>
+        <h3>Id:
+            {{profesor.id}}
+            <br>
+            Nombre completo: 
+            {{profesor.nombre}} {{profesor.apellidos}}
+            <br>
+            Fecha de nacimiento:
+            {{profesor.fecha_nacimiento}}
+            <br>
+            Correo electronico:
+            {{profesor.correo_electronico}}
+            <br>
+            Número del seguro social: 
+            {{profesor.numero_seguro}}
+            <br>
+            Telefono: 
+            {{profesor.telefono}}
+            <br>
+            Materias que imparte:
+            <br>
+            {%for m in profesor.materias.all%}
+            {{m}}
+            <br>
+            {%endfor%}
+        <a href="{%url 'profesor'%}">Volver</a>
+    </body>
+</html>

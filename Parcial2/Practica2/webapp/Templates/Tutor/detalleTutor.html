@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chartset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="{% static 'css/detalle.css' %}">
+        <title>Detalle</title>
+    </head>
+    <body>
+        <h3>
+            Id:
+            {{tutor.id}}
+            <br>
+            Nombre completo: 
+            {{tutor.nombre}} {{tutor.apellidos}}
+            <br>
+            Telefono: 
+            {{tutor.telefono}}
+            <br>
+            Correo electronico:
+            {{tutor.correo_electronico}}
+        </h3>
+        <a href="{%url 'tutor'%}">Volver al inicio</a>
+    </body>
+</html>

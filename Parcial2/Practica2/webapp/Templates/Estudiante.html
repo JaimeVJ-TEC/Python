@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chartset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="{% static 'css/tabla.css' %}">
+        <title>Bienvenida</title>
+    </head>
+    <body>
+        <div>
+            <a href="agregarEstudiante">Agregar nuevo estudiante</a>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Número control</th>
+                        <th>Nombre</th>
+                        <th>Detalle</th>
+                        <th>Editar</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {%for estudiante in estudiantes%}
+                    <tr>
+                        <td>{{estudiante.id}}</td>
+                        <td>{{estudiante.numero_control}}</td>
+                        <td>{{estudiante.nombre}} {{estudiante.apellidos}}</td>
+                        <td><a href="detalleEstudiante/{{estudiante.id}}">Detalles</a></td>
+                        <td><a href="editarEstudiante/{{estudiante.id}}">Editar estudiante</a></td>
+                        <td><a href="eliminarEstudiante/{{estudiante.id}}">Eliminar estudiante</a></td>
+                    </tr>
+                    {%endfor%}
+                </tbody>
+            </table>
+            <a href="{%url 'index'%}">Volver al inicio</a>
+        </div>
+    </body>
+</html>
